@@ -1,12 +1,11 @@
+const whatsappNumber = "6592321024";
+
 const message = [
-  "Hi! I’m interested in comparing Bangkok longevity assessment programmes.",
-  "",
-  "My main goal is:",
-  "My approximate budget is:",
-  "My preferred travel timing is:"
+  "Hi Clinic Magnet! I'd like help comparing Bangkok longevity assessments.",
+  "Let's start."
 ].join("\n");
 
-const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
 document.querySelectorAll(".whatsapp-cta").forEach((link) => {
   link.href = whatsappUrl;
