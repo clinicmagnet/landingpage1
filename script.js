@@ -1,8 +1,7 @@
 const whatsappNumber = "6592321024";
 
 const message = [
-  "Hi Clinic Magnet! I'd like help comparing Bangkok longevity assessments.",
-  "Let's start."
+  "Hi Clinic Magnet! I'd like help comparing Bangkok longevity assessments. Let's start.",
 ].join("\n");
 
 const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
